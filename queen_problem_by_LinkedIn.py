@@ -161,9 +161,9 @@ if __name__ == "__main__":
     # 2) rezolvăm puzzle-ul cu stele
     sol = solve_star_puzzle(matrix)
 
-    print("\nSoluția cu stele:")
+    print("\nSolutia cu stele:")
     if sol:
         for row in sol:
             print(row)
     else:
-        print("Nu există soluție.")
+        print("Nu exista solutie.")
